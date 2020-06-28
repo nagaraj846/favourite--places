@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const getService = (dispatch, URL, successType, failureType, cb) => {
   const headers = {
-    'Content-Type': null
+    'Content-Type': 'application/json'
   }
   return axios.get(
     URL,
